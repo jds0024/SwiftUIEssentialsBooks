@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6013F1032B2DD57F0053066F /* Progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6013F1022B2DD57F0053066F /* Progress.swift */; };
+		6013F1052B2DD8000053066F /* CustomProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6013F1042B2DD8000053066F /* CustomProgress.swift */; };
 		6031A1E82AFB4EFA002F6032 /* OutLineGroup34.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6031A1E72AFB4EFA002F6032 /* OutLineGroup34.swift */; };
 		6044A3A72AF0DA640098DCA8 /* ListNAvigationView30.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6044A3A62AF0DA640098DCA8 /* ListNAvigationView30.swift */; };
+		60575D322B2B01520004E03A /* Gesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60575D312B2B01520004E03A /* Gesture.swift */; };
 		60650A432AFBF10900CEBC27 /* GridEx1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60650A422AFBF10900CEBC27 /* GridEx1.swift */; };
 		606A69F42AF4C82200F97A2C /* PhotoPickerSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606A69F32AF4C82200F97A2C /* PhotoPickerSampleView.swift */; };
 		6082C7AB2B2891D9009FBFC7 /* StateAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6082C7AA2B2891D9009FBFC7 /* StateAnimation.swift */; };
@@ -50,8 +53,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6013F1022B2DD57F0053066F /* Progress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Progress.swift; sourceTree = "<group>"; };
+		6013F1042B2DD8000053066F /* CustomProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomProgress.swift; sourceTree = "<group>"; };
 		6031A1E72AFB4EFA002F6032 /* OutLineGroup34.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutLineGroup34.swift; sourceTree = "<group>"; };
 		6044A3A62AF0DA640098DCA8 /* ListNAvigationView30.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNAvigationView30.swift; sourceTree = "<group>"; };
+		60575D312B2B01520004E03A /* Gesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gesture.swift; sourceTree = "<group>"; };
 		605B72C52AF9CAB5005F2693 /* Generic.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Generic.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		605B72C92AF9D7C6005F2693 /* GenericsEX.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = GenericsEX.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		60650A422AFBF10900CEBC27 /* GridEx1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridEx1.swift; sourceTree = "<group>"; };
@@ -110,12 +116,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6013F1012B2DD56A0053066F /* 43progressView */ = {
+			isa = PBXGroup;
+			children = (
+				6013F1022B2DD57F0053066F /* Progress.swift */,
+				6013F1042B2DD8000053066F /* CustomProgress.swift */,
+			);
+			path = 43progressView;
+			sourceTree = "<group>";
+		};
 		6044A3A52AF0DA1D0098DCA8 /* 1031 */ = {
 			isa = PBXGroup;
 			children = (
 				6044A3A62AF0DA640098DCA8 /* ListNAvigationView30.swift */,
 			);
 			path = 1031;
+			sourceTree = "<group>";
+		};
+		60575D302B2B01340004E03A /* 42Gesture */ = {
+			isa = PBXGroup;
+			children = (
+				60575D312B2B01520004E03A /* Gesture.swift */,
+			);
+			path = 42Gesture;
 			sourceTree = "<group>";
 		};
 		605B72C42AF9CA1D005F2693 /* 1107 */ = {
@@ -189,6 +212,8 @@
 		60AC61D82AEF33F000F75E46 /* SwiftUIst */ = {
 			isa = PBXGroup;
 			children = (
+				6013F1012B2DD56A0053066F /* 43progressView */,
+				60575D302B2B01340004E03A /* 42Gesture */,
 				60EFA3E62B2881CC00266A77 /* 41Animation */,
 				60B321BC2B265BA800C3B080 /* 40 */,
 				60F573202AFC6803006B927B /* 1109 */,
@@ -387,10 +412,12 @@
 				60B620332AFB713B0020C5AC /* LazyGrid36.swift in Sources */,
 				60F045362AF2295F00A03A7B /* NavEX2.swift in Sources */,
 				60F4880E2AEF691800303D21 /* Alignmnet29.swift in Sources */,
+				60575D322B2B01520004E03A /* Gesture.swift in Sources */,
 				60B620312AFB61C10020C5AC /* ExOutlineGroup.swift in Sources */,
 				60F573242AFC78E8006B927B /* TabView38.swift in Sources */,
 				60B6202F2AFB58B40020C5AC /* DisClosureGoup34.swift in Sources */,
 				60F0452A2AF1E34400A03A7B /* ListEX3.swift in Sources */,
+				6013F1052B2DD8000053066F /* CustomProgress.swift in Sources */,
 				60650A432AFBF10900CEBC27 /* GridEx1.swift in Sources */,
 				6044A3A72AF0DA640098DCA8 /* ListNAvigationView30.swift in Sources */,
 				60EFA3EA2B2884D900266A77 /* AnimationCurve.swift in Sources */,
@@ -405,6 +432,7 @@
 				60AC61DA2AEF33F000F75E46 /* SwiftUIstApp.swift in Sources */,
 				60F4882D2AEF7A2200303D21 /* AlignmentEx2.swift in Sources */,
 				60F045382AF22CBE00A03A7B /* NAvEX2_2.swift in Sources */,
+				6013F1032B2DD57F0053066F /* Progress.swift in Sources */,
 				60A6BDC52AFB0DA400200459 /* NavSplitDemoView.swift in Sources */,
 				60F488302AEF946500303D21 /* StackAlignment29.swift in Sources */,
 			);
